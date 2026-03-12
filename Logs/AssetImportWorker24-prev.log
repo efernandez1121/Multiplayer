@@ -1,0 +1,468 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.4f1 (03270eb687c6) revision 206606'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 15799 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2026-03-11T04:35:34Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.1.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker24
+-projectPath
+C:/Users/anime/Multiplayer1
+-logFile
+Logs/AssetImportWorker24.log
+-srvPort
+63285
+-job-worker-count
+10
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/anime/Multiplayer1
+C:/Users/anime/Multiplayer1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30176]  Target information:
+
+Player connection [30176]  * "[IP] 192.168.16.29 [Port] 0 [Flags] 2 [Guid] 2552756614 [EditorId] 2552756614 [Version] 1048832 [Id] WindowsEditor(7,test) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30176] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 10
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 507.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.4f1 (03270eb687c6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/anime/Multiplayer1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.8183
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011564 seconds.
+- Loaded All Assemblies, in  5.061 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.877 seconds
+Domain Reload Profiling: 5935ms
+	BeginReloadAssembly (551ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (1272ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (3105ms)
+		LoadAssemblies (558ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3079ms)
+			TypeCache.Refresh (3076ms)
+				TypeCache.ScanAssembly (2318ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (877ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (693ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (113ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (271ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.111 seconds
+Refreshing native plugins compatible for Editor in 12.87 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.580 seconds
+Domain Reload Profiling: 4682ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (1784ms)
+		LoadAssemblies (1089ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (803ms)
+			TypeCache.Refresh (227ms)
+				TypeCache.ScanAssembly (212ms)
+			BuildScriptInfoCaches (561ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2581ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2274ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (1676ms)
+			ProcessInitializeOnLoadMethodAttributes (443ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7208 unused Assets / (4.7 MB). Loaded Objects now: 7893.
+Memory consumption went from 182.1 MB to 177.4 MB.
+Total: 14.405900 ms (FindLiveObjects: 2.613700 ms CreateObjectMapping: 1.646700 ms MarkObjects: 7.809200 ms  DeleteObjects: 2.334800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 438984.164531 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/1 Main Characters/Desappearing.png
+  artifactKey: Guid(bfdb291a8d338d04a81ad8fc6a0fcf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/1 Main Characters/Desappearing.png using Guid(bfdb291a8d338d04a81ad8fc6a0fcf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccf6c638aefd16e77022227b1bfc1504') in 0.1807481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.378347 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/1 Main Characters/2/Fall.png
+  artifactKey: Guid(7b162759430fe434fabdb769e895340b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/1 Main Characters/2/Fall.png using Guid(7b162759430fe434fabdb769e895340b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd414dcf48f69f9b606cac2a87cd485cb') in 0.1165918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/1 Main Characters/2/Wall_Jump.png
+  artifactKey: Guid(41c2754f96bdbea4290bd13545c5815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/1 Main Characters/2/Wall_Jump.png using Guid(41c2754f96bdbea4290bd13545c5815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd21f52666bc544abf5e132535448e02e') in 0.4161047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.210789 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/2 Locations/Tiles/Tile_60.png
+  artifactKey: Guid(f285dcddda272dc4380a65a04db51001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/2 Locations/Tiles/Tile_60.png using Guid(f285dcddda272dc4380a65a04db51001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b7010dbc2cbea0dcf77e9801014f361') in 0.1027101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.108744 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/2 Locations/Tiles/Tile_67.png
+  artifactKey: Guid(3cc9e0b2c8016ff4d8b86458a6782cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/2 Locations/Tiles/Tile_67.png using Guid(3cc9e0b2c8016ff4d8b86458a6782cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35e1602b8f633bfaa8093d0aa7094ce6') in 0.0488557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.725438 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/2 Locations/Backgrounds/3.png
+  artifactKey: Guid(b8944727c22ea644280697720b669fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/2 Locations/Backgrounds/3.png using Guid(b8944727c22ea644280697720b669fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e86e9a7af32560749cc4f06661bca34') in 0.1508431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.187371 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/3 Objects/Boxes/2_Hit.png
+  artifactKey: Guid(461358bfd005b8140925309f726c19bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/3 Objects/Boxes/2_Hit.png using Guid(461358bfd005b8140925309f726c19bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '176a80edb3789798e1a851f94e7fb4ef') in 0.0837219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.521524 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/3 Objects/Gems/3.png
+  artifactKey: Guid(d711b0eab831d794ebf86d40b6fe2363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/3 Objects/Gems/3.png using Guid(d711b0eab831d794ebf86d40b6fe2363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3371f17658da1c529d7750bfe2c6fa3e') in 0.1668648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.736791 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/2/Hit.png
+  artifactKey: Guid(d33e965ea4fcab14ab5a7f250a7b2bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/2/Hit.png using Guid(d33e965ea4fcab14ab5a7f250a7b2bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7333dcdf9f352adb58a17a78ccf40f34') in 0.12638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.996200 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/3/Hit.png
+  artifactKey: Guid(adc2710dc96d8db4e8de71df94ac8cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/3/Hit.png using Guid(adc2710dc96d8db4e8de71df94ac8cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67bf94dd2974f3619f7d3e13426abe9e') in 0.1757316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.626817 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/1/Hit.png
+  artifactKey: Guid(43da72911fe38314292963d31bbf97b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/1/Hit.png using Guid(43da72911fe38314292963d31bbf97b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef01a82005e673df4d22a6815207d4c0') in 0.1904012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.919176 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/4/Cannonball1.png
+  artifactKey: Guid(eeeadc03c7f956f43adaf02c686f3b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/4/Cannonball1.png using Guid(eeeadc03c7f956f43adaf02c686f3b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52513c31d712de2f4678e7a50b60438d') in 0.0492745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/4/Walk.png
+  artifactKey: Guid(9bf2f97e2a0b66c43841b3951ee16f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/4/Walk.png using Guid(9bf2f97e2a0b66c43841b3951ee16f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbca1793dcc5a67d33fc1c22103efd7c') in 0.0839497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.740409 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/5/Fly.png
+  artifactKey: Guid(6f0717b1ba04d9a4d8d9c9c6d234bb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/5/Fly.png using Guid(6f0717b1ba04d9a4d8d9c9c6d234bb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5adf4021d4e28e80778d9241b4407954') in 0.1428335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.809725 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/6 (48x72)/Hit.png
+  artifactKey: Guid(d2da43320c2366e48b0c69ac4b605610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/4 Enemies/6 (48x72)/Hit.png using Guid(d2da43320c2366e48b0c69ac4b605610) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8be883875fcd0b16cdb3cf29daaafa07') in 0.2138236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.334099 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/5 GUI/Buttons/Button_02.png
+  artifactKey: Guid(0a144b8408bbd094b82ef2d3d8550fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/5 GUI/Buttons/Button_02.png using Guid(0a144b8408bbd094b82ef2d3d8550fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6d69692c6cfb6d09b40207894809233') in 0.1595987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/5 GUI/Buttons/Button_09.png
+  artifactKey: Guid(7b490bae73667f947bab78f42029175d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/5 GUI/Buttons/Button_09.png using Guid(7b490bae73667f947bab78f42029175d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aece820371e24de46fb5f132f857909') in 0.0856917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/5 GUI/Buttons/Button_10.png
+  artifactKey: Guid(1cbf85164433c2042849133760af14e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/5 GUI/Buttons/Button_10.png using Guid(1cbf85164433c2042849133760af14e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3007f5c6e2012c3b91630a967794e7f3') in 0.050672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.099126 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/5 GUI/Icons/Icon_02.png
+  artifactKey: Guid(0ef4217caaa92e74989381367204dd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/5 GUI/Icons/Icon_02.png using Guid(0ef4217caaa92e74989381367204dd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af9afeddfdf1bca29cd405361aec37b9') in 0.059566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/5 GUI/Icons/Icon_10.png
+  artifactKey: Guid(8100b06268885de4dba24915240228b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/5 GUI/Icons/Icon_10.png using Guid(8100b06268885de4dba24915240228b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd37165287df0062fc87ce72a5e482805') in 0.0435778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/5 GUI/Icons/Icon_08.png
+  artifactKey: Guid(d231268cb72f56f43b71bea6af21f8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/5 GUI/Icons/Icon_08.png using Guid(d231268cb72f56f43b71bea6af21f8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a3d83977b6116a836cdfa325d31e2e2') in 0.1448023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.214577 seconds.
+  path: Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PSD/cave_entrance.psd
+  artifactKey: Guid(631558839a224224c9723ad98ae23ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PSD/cave_entrance.psd using Guid(631558839a224224c9723ad98ae23ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3c0c12d40cd8936f5a38a03f45b9e7a') in 0.0414318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PSD/Fairys.psd
+  artifactKey: Guid(9f149fdc8b4dc9844bc155b33f598e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PSD/Fairys.psd using Guid(9f149fdc8b4dc9844bc155b33f598e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caffa319ce147ada02e1f6d6b0f39087') in 0.1202039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PSD/Spikes.psd
+  artifactKey: Guid(db894add8514baa49a4d2070bd278e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PSD/Spikes.psd using Guid(db894add8514baa49a4d2070bd278e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3449488ddc69692db4386c536a988fa9') in 0.0697971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PSD/Flying_stone.psd
+  artifactKey: Guid(9731a6e8e7a14cb47a05bbf5e6535729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PSD/Flying_stone.psd using Guid(9731a6e8e7a14cb47a05bbf5e6535729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a24ed882180b138150df0a4a5da38711') in 0.0365414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.474309 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/1 Main Characters/1/Fall.png
+  artifactKey: Guid(88cfc388a3696ce4f9671d5da196ab19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/1 Main Characters/1/Fall.png using Guid(88cfc388a3696ce4f9671d5da196ab19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00a3fc7f1f3c2086d87d14fd2148a2f3') in 0.0595013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/1 Main Characters/1/Wall_Jump.png
+  artifactKey: Guid(235d853d16c7a7b46b738c1c15ba29fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/1 Main Characters/1/Wall_Jump.png using Guid(235d853d16c7a7b46b738c1c15ba29fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '395deee4e3b38de4a9588b06e1cade04') in 0.1377875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.632445 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/PSD/Enemies.psd
+  artifactKey: Guid(e13faf51cbe3f4d4191976c0b43f007a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/PSD/Enemies.psd using Guid(e13faf51cbe3f4d4191976c0b43f007a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e17c6eb517ad27ee8d56bc44f60d386') in 0.0470873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/PSD/Traps.psd
+  artifactKey: Guid(ab887a3ffe32a344aa2eec5c1c29a718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/PSD/Traps.psd using Guid(ab887a3ffe32a344aa2eec5c1c29a718) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70bd143c1e1a1d45de8c4fda579a67c0') in 0.1065371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.651302 seconds.
+  path: Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PNG/chest.png
+  artifactKey: Guid(e3d62c85789833146ba97cf5982bc62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PNG/chest.png using Guid(e3d62c85789833146ba97cf5982bc62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f98a6f975a42f16e3a1fe0313c1d468b') in 0.1262528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PNG/Flying_stone.png
+  artifactKey: Guid(4144efbb49953df41a68cf97b6559d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PNG/Flying_stone.png using Guid(4144efbb49953df41a68cf97b6559d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f29410145352c35189ad0499f86afbc') in 0.2915099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PNG/stalactites.png
+  artifactKey: Guid(fddc9b28dea84ae4ba412926b9aab4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-926878-free-platformer-game-tileset-pixel-art/PNG/stalactites.png using Guid(fddc9b28dea84ae4ba412926b9aab4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97f4438cf1258a00d227d705045b9f7d') in 0.4835554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
+
+========================================================================
+Received Import Request.
+  Time since last request: 199.556588 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/6 Traps/3.png
+  artifactKey: Guid(b948b545923cd8f4e801321caac33699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/6 Traps/3.png using Guid(b948b545923cd8f4e801321caac33699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4a18bd7d8a58f59dd0a91134cf2ae1e') in 0.1914977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/6 Traps/5.png
+  artifactKey: Guid(8890490a2d83597459d9a086981d15f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/craftpix-net-396765-free-simple-platformer-game-kit-pixel-art/6 Traps/5.png using Guid(8890490a2d83597459d9a086981d15f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5da4e462157dd5286b7c521d87b92c6c') in 0.1107875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
