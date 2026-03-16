@@ -7,44 +7,36 @@ public class PlayerController2D : NetworkBehaviour
     public float moveSpeed = 6f;
     public float jumpForce = 12f;
 
-    public Transform groundCheck;
-    public float groundCheckRadius = 0.15f;
-    public LayerMask groundLayer;
-
     private Rigidbody2D rb;
+    private float moveInput;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        rb.freezeRotation = true;
     }
 
     public override void OnNetworkSpawn()
     {
         if (!IsOwner)
         {
-            rb.simulated = false;
+            enabled = false;
+            return;
         }
     }
 
     void Update()
     {
-        if (!IsOwner) return;
+        moveInput = Input.GetAxisRaw("Horizontal");
 
-        float move = Input.GetAxisRaw("Horizontal");
-
-        // Move
-        rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);
-
-        // Jump
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
 
-    bool IsGrounded()
+    void FixedUpdate()
     {
-        if (groundCheck == null) return false;
-        return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
 }

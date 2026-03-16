@@ -16,26 +16,22 @@ public class CharacterSelectManager : MonoBehaviour
 
     public void SelectCharacter(Button clickedButton)
     {
+        // Turn off old selection outline
         if (currentlySelected != null)
         {
             Outline oldOutline = currentlySelected.GetComponent<Outline>();
-            if (oldOutline != null) oldOutline.enabled = false;
+            if (oldOutline != null)
+                oldOutline.enabled = false;
         }
 
+        // Set new selection
         currentlySelected = clickedButton;
 
         Outline newOutline = currentlySelected.GetComponent<Outline>();
-        if (newOutline != null) newOutline.enabled = true;
+        if (newOutline != null)
+            newOutline.enabled = true;
 
-        if (playButton != null)
-            playButton.interactable = true;
-    }
-
-    public void StartGame()
-    {
-        if (currentlySelected == null)
-            return;
-
+        // SAVE the selected character immediately
         SelectionData.SelectedCharacterId = currentlySelected.name switch
         {
             "Enchantress" => 0,
@@ -47,9 +43,30 @@ public class CharacterSelectManager : MonoBehaviour
             _ => -1
         };
 
-        // ONLY the host should trigger scene loads
+        Debug.Log("Selected character ID = " + SelectionData.SelectedCharacterId);
+
+        // Enable play button
+        if (playButton != null)
+            playButton.interactable = true;
+    }
+
+    public void StartGame()
+    {
+        if (currentlySelected == null)
+            return;
+
+        // Only host starts the scene load
         if (NetworkManager.Singleton.IsHost)
         {
+            int connectedCount = NetworkManager.Singleton.ConnectedClientsList.Count;
+            Debug.Log("Connected clients count: " + connectedCount);
+
+            if (connectedCount < 2)
+            {
+                Debug.LogWarning("Need both host and client connected before starting Level1.");
+                return;
+            }
+
             NetworkManager.Singleton.SceneManager.LoadScene("Level1", LoadSceneMode.Single);
         }
         else
